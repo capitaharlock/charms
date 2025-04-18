@@ -25,6 +25,11 @@ If we replace the tag character `t` with `n`, we will have a full identifier for
 We propose the following structure for reference NFT data:
 
 ```yaml
+
+# (mandatory)
+# Version (to be understood by all parsers out there)
+version: 1.0.0
+
 # (optional) 
 # Asset name.
 name: ?<string>
